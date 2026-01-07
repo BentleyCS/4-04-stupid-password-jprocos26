@@ -28,3 +28,5 @@ def stupidPassword(n: int, l: int):
                         if c5 > max(c1, c2):
                             password = str(c1) + str(c2) + letter1 + letter2 + str(c5)
                             passwords.append(password)
+
+    return passwords
